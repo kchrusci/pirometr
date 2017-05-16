@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.android.pirometr.AutoFitTextureView
+        android:id="@+id/texture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true" />
+
+        <Button
+            android:id="@+id/raw_check"
+            android:background="@drawable/raw_file"
+            android:layout_width="30dp"
+            android:layout_height="35dp"
+            android:layout_gravity="top|right"
+            android:icon="@drawable/raw_file"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true" />
+
+        <Button
+            android:id="@+id/sample_icon"
+            android:background="@drawable/sample_icon"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_gravity="top|center"
+            android:icon="@drawable/sample_icon"
+            android:layout_alignParentTop="true"
+            android:layout_toStartOf="@+id/raw_check"
+            android:layout_marginEnd="20dp" />
+
+        <Button
+            android:id="@+id/picture"
+            android:background="@drawable/target_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:icon="@drawable/target_icon"/>
+
+</RelativeLayout>
